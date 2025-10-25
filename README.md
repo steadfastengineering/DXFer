@@ -3,7 +3,7 @@ Android application for those who want to view DXF files without downloading mob
 
 ## Design
 - Single activity
-- Recieves *.dxf file intent
+- Recieves `*.dxf` file intent
 - Converts the dxf to an SVG for rendering
 
 ## Current state
