@@ -4,10 +4,14 @@ Android application for those who want to view DXF files without downloading mob
 ## Design
 - Single activity
 - Recieves `*.dxf` file intent
-- Converts the dxf to an SVG for rendering
+- Converts the dxf to an SVG for rendering using Kabeja
 
 ## Current state
-- Displays simple DXF files based on the support(polylines, lines, points, etc) found in Kabeja's library
+- Displays DXF files based on the support(polylines, lines, points, etc) found in Kabeja's library
 - TODO: Zooming, scrolling
-- TODO: Test all DXF formats (may require Kabeja modifications)
+- TODO: Test DXF formats (may require Kabeja modifications to add support)
+  - DXF Binary (Not supported by Kabeja)
+  - DXF ASCII
+    - AutoCAD releases: R12 (1992) through R2004 (2003) (Should be majority of DXF...)
+    - Other versions?
 - TODO: Add metadata overlay to view 
